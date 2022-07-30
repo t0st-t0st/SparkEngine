@@ -1,11 +1,11 @@
 # SparkEngine
 
-Engine for [Editor](https://github.com/t0st_t0st/SparkEditor) 
+Engine
 
 ## Clone 
 
 ```
-git clone --recursive https://github.com/t0st-t0st/SparkEngine.git
+git clone https://github.com/t0st-t0st/SparkEngine.git
 ```
 
 ## Setup
