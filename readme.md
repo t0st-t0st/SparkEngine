@@ -17,8 +17,3 @@ git clone --recursive https://github.com/t0st-t0st/SparkEngine.git
 ```
 mkdir build && cd build && cmake .. && cmake --build .
 ```
-
-## Dependencies
-
-  * [SparkApplicationFramework](https://github.com/t0st_t0st/SparkApplicationFramework)
-  * [SparkCore](https://github.com/t0st_t0st/SparkCore)
