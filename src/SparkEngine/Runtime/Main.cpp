@@ -1,5 +1,6 @@
-#include <SparkEngine/Core/Framework/ApplicationLayer.hpp>
 #include <SparkEngine/Core/Dll.hpp>
+
+#include <SparkEngine/Core/Framework/ApplicationLayer.hpp>
 
 int main()
 {

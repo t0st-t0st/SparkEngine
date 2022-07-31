@@ -98,15 +98,17 @@ IncludeCategories:
     Regex: '^<SparkEngine\/Config.hpp>$'
   - Priority: 2
     Regex: '^<SparkEngine\/(.+)\/Export.hpp>$'
+  - Priority: 4
+    Regex: '^<SparkEngine\/Core\/Framework'
   - Priority: 3
     Regex: '^<SparkEngine\/Core'
-  - Priority: 4
-    Regex: '^<SparkEngine\/Framework'
   - Priority: 5
-    Regex: '^<SparkEngine\/'
+    Regex: '^<SparkEngine\/Runtime'
   - Priority: 6
-    Regex: '^<(glad|gl|Windows)'
+    Regex: '^<SparkEngine\/Editor'
   - Priority: 7
+    Regex: '^<(glad|gl|Windows)'
+  - Priority: 8
     Regex: '^<(.+)>$'
 SortIncludes: true
 SortUsingDeclarations: true
@@ -152,4 +154,4 @@ SpacesInParentheses: false
 SpacesInSquareBrackets: false
 
 # Line endings
-UseCRLF: false
+UseCRLF: true

@@ -2,8 +2,8 @@
 
 #include <SparkEngine/Core/Export.hpp>
 
-#include <string>
 #include <functional>
+#include <string>
 
 #ifdef WIN32
 
@@ -15,12 +15,12 @@ using DllImpl = DllImplWin32;
 class CORE_API Dll
 {
 public:
-    Dll() = delete;
+    Dll()  = delete;
     ~Dll() = delete;
 
-    template<typename T>
+    template <typename T>
     static std::function<T*()> import(const std::string& libName, const std::string& funcName)
     {
-        return DllImpl::import<T>(libName, funcName); 
+        return DllImpl::import<T>(libName, funcName);
     }
 };
