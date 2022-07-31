@@ -42,4 +42,4 @@ set_property(TARGET ${LIB_NAME} PROPERTY CXX_STANDARD 17)
 set_property(TARGET ${LIB_NAME} PROPERTY DEFINE_SYMBOL CORE_EXPORTS)
 
 target_include_directories(${LIB_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)
-target_include_directories(${LIB_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/src)
+target_include_directories(${LIB_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/src)
