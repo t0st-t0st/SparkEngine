@@ -30,8 +30,6 @@ if(WIN32)
     set(PLATFORM_SRC 
 	  ${SRCROOT}/Platform/Win32/WindowImplWin32.hpp
 	  ${SRCROOT}/Platform/Win32/WindowImplWin32.cpp
-      ${SRCROOT}/Platform/Win32/DllImplWin32.hpp
-      ${SRCROOT}/Platform/Win32/DllImplWin32.cpp
     )
     source_group("Platform" FILES ${PLATFORM_SRC})
 endif()
